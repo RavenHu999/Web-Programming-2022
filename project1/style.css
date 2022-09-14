@@ -1,0 +1,199 @@
+body {
+	font-size: 25px;
+	background-color:#FFF9ED;
+}
+ul{
+	text-align:left;
+}
+li{
+	display:inline;
+	margin:20px;
+	margin-top: 10px;
+	font-size:22px;
+}
+.image1{
+	background-image:url('5.jpg');
+	background-repeat:no-repeat;
+	position: absolute;
+	width: 831px;
+	height: 951px;
+	left: 1090px;
+	top: 80px;
+}
+.image2{
+	position: absolute;
+	background-repeat:no-repeat;
+width: 150px;
+height: 150px;
+left: 700px;
+top: 20px;
+transfrom:scale(2);
+
+background: url(1.png);
+}
+
+.variable1 {
+	font-family: 'Holtwood One SC';
+font-style: normal;
+font-weight: 400;
+font-size: 180px;
+line-height: 109.24%;
+}
+.variable2 {
+font-family: 'Hina Mincho';
+font-style:normal;
+color:#686868;
+
+}
+.variablep {
+	position: absolute;
+	width: 600px;
+	height: 140px;
+	font-family: 'Hina Mincho';
+	font-style: normal;
+	font-size: 20px;
+	line-height: 25px;
+	margin-left:100px;
+	margin-top: 230px;
+ 	color:#424242;
+}
+.variablethick{
+	position: absolute;
+width: 908px;
+height: 59px;
+font-family: 'Galindo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 45px;
+	margin-left:100px;
+margin-top: 360px;
+color: #000000;
+}
+.variable3{
+	font-family: 'Galindo';
+font-style: normal;
+	margin-left:1370px;
+	display:menu;
+	font-size:100px;
+	margin-top: 5px;
+	color:#FFE8BB;
+}
+.image3{
+	position: absolute;
+	width: 658px;
+	height: 919px;
+	background-image:url('7.jpeg');
+	border-radius: 200px 0px 200px 0px;
+	margin-left:50px;
+margin-top: 80px;
+}
+.more{
+position: absolute;
+width: 655px;
+height: 58px;
+font-family: 'Hina Mincho';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 58px;
+margin-left:1000px;
+margin-top: -90px;
+color: #000000;
+}
+.create{
+	font-family: 'Holtwood One SC';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 109.24%;
+margin-left:1000px;
+margin-top: 550px;
+}
+.img4{
+	position: absolute;
+	width: 998px;
+	height: 1173px;
+	background-image:url('4.jpeg');
+	margin-left:800px;
+	margin-top: -720px;
+	border-radius: 400px 0px 0px 400px;
+	z-index: -1;
+}
+.story{
+position: absolute;
+width: 500px;
+height: 989px;
+font-family: 'Hina Mincho';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+margin-top: 520px;
+	margin-left:120px;
+color: #686868;
+}
+
+.down{
+	position: absolute;
+width: 1920px;
+height: 800px;
+margin-top: 1300px;
+
+background: #FFD178;
+}
+.buy{
+	font-family: 'Holtwood One SC';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 109.24%;
+margin-left: 200px
+padding-top: 600px;
+text-align: center;
+margin-bottom: 10px
+}
+.name{
+	font-family: 'Hina Mincho';
+	font-style: normal;
+	position: absolute;
+width: 1468px;
+height: 45px;
+text-align: left;
+background: #FFF9ED;
+border-radius: 10px;
+margin-top: 20px;
+padding-top: 30px;
+margin-left: 250px;
+color:#282828;
+}
+.email{
+	font-family: 'Hina Mincho';
+	font-style: normal;
+	position: absolute;
+width: 1468px;
+height: 45px;
+text-align: left;
+background: #FFF9ED;
+border-radius: 10px;
+margin-top: 150px;
+margin-left: 250px;
+padding-top: 30px;
+color:#181818;
+}
+.submit{
+	font-family: 'Holtwood One SC';
+	font-style: normal;
+	position: absolute;
+width: 600px;
+height: 100px;
+text-align: center;
+background: #FFF9ED;
+border-radius: 10px;
+margin-top: 350px;
+margin-left: 700px;
+padding-top: 30px;
+color:#181818;
+font-size: 45px;
+}
+}
