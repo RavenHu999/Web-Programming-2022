@@ -196,4 +196,15 @@ padding-top: 30px;
 color:#181818;
 font-size: 45px;
 }
+.hover3 {
+	cursor: pointer;
+}
+.hover3:hover {
+	color:#000000;
+}
+.hover1 {
+	cursor: pointer;
+}
+.hover1:hover {
+	color:#FFD178;
 }
