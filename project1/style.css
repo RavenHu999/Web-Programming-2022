@@ -19,6 +19,7 @@ li{
 	height: 951px;
 	left: 1090px;
 	top: 80px;
+	background-size:contain;
 }
 .image2{
 	position: absolute;
@@ -28,6 +29,7 @@ height: 150px;
 left: 700px;
 top: 20px;
 transfrom:scale(2);
+	background-size:contain;
 
 background: url(1.png);
 }
@@ -203,6 +205,8 @@ font-size: 45px;
 	color:#000000;
 }
 .hover1 {
+	color:#000000;
+	text-decoration: none;
 	cursor: pointer;
 }
 .hover1:hover {
