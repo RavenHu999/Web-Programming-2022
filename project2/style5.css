@@ -1,0 +1,128 @@
+.video{
+width:auto;
+  height:auto;
+margin:0px;
+padding:0px;
+postion:relative;
+controls:autoplay;
+z-index: -1;
+}
+.position{
+  position:absolute;
+  align-items: center;
+  width:640px;
+  height:370px;
+}
+.overlayText {
+ position:absolute;
+  top:15%;
+  left:55%;
+  z-index:1;
+}
+.toptext {
+  font-family: 'Inria Serif';
+  color:#C6C1AA;
+  font-weight:bold;
+  font-size: 80px;
+  top:45px;
+  left:-20px;
+  	transition: .2s;
+}
+.toptext:hover{
+color:white;
+}
+.read{
+  font-family: 'Inria Serif';
+
+  font-size: 20px;
+  position:absolute;
+   color: black;
+   top:75%;
+   left:63%;
+}
+.scroll{
+  font-family: 'Inria Serif';
+  font-size: 16px;
+  position:absolute;
+   color: black;
+   top:240%;
+   left:84%;
+   color:#C2BFAD;
+}
+.navbar {
+font-family: 'Inria Serif';
+	position: sticky;
+  position:absolute;
+  align-items: center;
+  width:640px;
+  height:20px;
+	top: 40px;
+	color: white;
+	width: 50vw;
+	padding: 0;
+	display: flex;
+	align-items: center; /* Flexbox - Centers everything vertically */
+}
+.flex-child {
+	flex-grow: 1; /* Makes items fill up space */
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	transition: .2s;
+	text-align: center;
+}
+.flex-child:hover {
+  font-size:20px;
+	background-color: #F2ECCC;
+	color: #686868;
+}
+
+
+
+
+
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-family: 'Inria Serif';
+  font-size: 20px;
+   color:#F2ECCC;
+   padding:60px;
+   background: #F2ECCC;
+z-index: -1;
+}
+
+.read2{
+  font-family: 'Inria Serif';
+  font-size: 32px;
+   color:#686868;
+}
+.parent {
+  	display: grid;
+    grid-template-columns: 0.4fr 1fr 1fr;
+    grid-gap: 180px;
+    text-align: left;
+  }
+
+  .change{
+    font-family: 'Inria Serif';
+    font-size: 20px;
+     color:#F2ECCC;
+     list-style-type: none;
+     padding: 0px;
+     margin: 0px;
+  }
+  #english {
+  	color: 686868;
+  	padding: 20px;
+  }
+  #spanish {
+    color: 686868;
+    padding: 20px;
+  }
+  #chinese {
+    color: 686868;
+    padding-top: 5px;
+    padding-left: 2px;
+  }

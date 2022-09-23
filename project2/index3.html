@@ -1,0 +1,128 @@
+<html Raven Hu>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		body { margin: 0; padding: 0;  }
+		#icon {
+			position:absolute;
+			width: 40px;
+			height: 40px;
+			border-radius:20px;
+		}
+	</style>
+	<style>
+	* {
+  box-sizing: border-box;
+}
+</style>
+		<link rel="stylesheet" href="style5.css">
+</head>
+
+<body>
+
+	<img src="1.gif" id="icon">
+	<script type="text/javascript"  >
+		var icon = document.getElementById('icon');
+		var w = icon.offsetWidth;
+		var h = icon.offsetHeight;
+		document.addEventListener('mousemove',function (e) {
+			var x = e.clientX;
+			var y = e.clientY;
+			icon.style.top = y - ( w / 2 ) + 'px';
+			icon.style.left = x - ( h / 2 ) + 'px';
+		})
+	</script>
+	<div>
+		<video class="video" controls autoplay>
+  	<source src="Raven.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+
+	<div class="overlayText">
+	        <p class="toptext"> READ SOME POEMS</p>
+					<p class="read"> WHAT CAN I HOLD YOU WITH</p>
+					<p class="scroll"> SCROLL DOWN</p>
+	    </div>
+</div>
+<div class="navbar">
+	<a class="flex-child" href="">Author</a>
+	<a class="flex-child" href="#spanish">Spanish</a>
+	<a class="flex-child" href="#english">English</a>
+	<a class="flex-child" href="#chinese">Chinese</a>
+</div>
+
+
+
+<div class="sidebar">
+	<h2 class="read2">INFORMATION</h2>
+	<ul class="change">
+		<li><a href="#section1">Author</a></li>
+		<li><a href="#spanish">Spanish</a></li>
+		<li><a href="#english">English</a></li>
+		<li><a href="#chinese ">Chinese</a></li>
+	</ul>
+</div>
+
+<div class="parent">
+
+
+<div>
+</div>
+	<div class="content">
+		<div id="english">
+			<h3>What can I hold you with?</h3>
+			<p>
+				I offer you lean streets, desperate sunsets, the moon of the jagged suburbs.<br>
+				I offer you the bitterness of a man who has looked long and long at the lonely moon.<br>
+				I offer you my ancestors, my dead men, the ghosts that living men have honored in marble: <br>my father's father killed in the frontier of Buenos Aires, two bullets through his lungs, bearded and dead, wrapped by his soldiers in the hide of a cow; my mother's grandfather —just twenty-four—heading a charge of three hundred men in Perú, now ghosts on vanished horses.<br>
+				I offer you whatever insight my books may hold. <br>whatever manliness or humour my life.<br> I offer you the loyalty of a man who has never been loyal.<br>
+				I offer you that kernel of myself that I have saved somehow -the central heart that deals not in words, traffics not with dreams and is untouched by time, by joy, by adversities.<br>
+				I offer you the memory of a yellow rose seen at sunset, years before you were born.<br>
+				I offer you explanations of yourself, theories about yourself, authentic and surprising news of yourself.<br>
+				I can give you my loneliness, my darkness, the hunger of my heart; I am trying to bribe you with uncertainty, with danger, with defeat.<br>
+			</p>
+		</div>
+</div>
+
+	<div id="spanish">
+			<h3>¿Con qué te puedo retener?</h3>
+		<p>
+Te dejo las magras calles, los atardeceres desesperados, la luna de los ásperos suburbios. <br>
+Te ofrezco la amargura de un hombre que ha mirado largamente la luna solitaria. <br>
+Te ofrezco a mis ancestros, a mis muertos, los fantasmas que otros hombres vivos honraron en mármol: el padre de mi padre asesinado en la frontera de Buenos Aires, dos balas atravesando sus pulmones, barbado y muerto, envuelto por sus soldados en un cuero de vaca;  <br>el abuelo de mi madre –con sólo veinticuatro años- dirigiendo una carga de trescientos hombres en el Perú, ahora todos ellos fantasmas sobre borrosos caballos. <br>
+Te ofrezco cualquier cosa que en mis libros se pueda guardar, cualquier acto de valentía o alegría de mi vida. <br>
+Te ofrezco la lealtad de un hombre que nunca ha sido leal. <br>
+Te ofrezco esa esencia de mí mismo que, de alguna forma, he salvado –esa que no comercia con palabras, ni trafica con sueños, y que permanece intacta ante el tiempo, las alegrías, las adversidades. <br>
+Te ofrezco el recuerdo de una rosa amarilla vista en un atardecer, años antes de que tú hubieras nacido. <br>
+Te ofrezco explicaciones sobre ti, teorías sobre ti, auténticas y sorprendentes noticias de sobre ti. <br>
+Te puedo dar mi soledad, mi lado oscuro, el hambre de mi corazón;  <br>estoy tratando de sobornarte con incertidumbres, con peligros, con derrotas.</p>
+
+
+</div>
+
+<div></div>
+
+
+		<div id="chinese">
+				<h3>我用什么才能留住你</h3>
+			<p>
+				我用什么才能留住你
+			我给你萧索的街道、绝望的落日、荒郊的月亮。<br>
+			我给你一个久久地望着孤月的人的悲哀。<br>
+			我给你我已死去的祖辈，后人们用大理石祭奠的先魂<br>
+			我父亲的父亲，阵亡于布宜诺斯艾利斯的边境，两颗子弹射穿了他的胸膛，死的时候蓄着胡子，尸体被士兵们用牛皮裹起；<br>
+			我母亲的祖父——那年才二十四岁——在秘鲁率领三百人冲锋，如今都成了消失的马背上的亡魂。<br>
+			我给你我的书中所能蕴含的一切悟力，以及我生活中所能有的男子气概和幽默。<br>
+			我给你一个从未有过信仰的人的忠诚。<br>
+			我给你我设法保全的我自己的核心——不营字造句，不和梦交易，不被时间、欢乐和逆境触动的核心。<br>
+			我给你早在你出生前多年的一个傍晚看到的一朵黄玫瑰的记忆。<br>
+			我给你关于你生命的诠释，关于你自己的理论，你的真实而惊人的存在。<br>
+			我给你我的寂寞、我的黑暗、我心的饥渴；我试图用困惑、危险、失败来打动你。</p>
+
+</div>
+
+
+</body>
+</html>
